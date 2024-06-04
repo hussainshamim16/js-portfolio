@@ -243,3 +243,42 @@ section.mail a{
     text-decoration: none;
     padding: 8px 15px;
 }
+
+section.footer{
+    margin-bottom: 0px;
+    justify-content: space-around;
+}
+section.footer a i{
+    color: var(--blue);
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 39px;
+    background-color: var(--syellow);
+}
+section.footer .sections{
+    /* border: 1px solid red; */
+    width: 80%;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+section.footer .sections a{
+    text-decoration: none;
+    font-weight: 100;
+    
+    color: white;
+
+}
+section.footer .text{
+    /* border: 1px solid red; */
+    width: 70%;
+
+}
+section.footer .text h1{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+section.footer .text h1 span{
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+}
