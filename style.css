@@ -153,6 +153,7 @@ width: 100%;
 border-radius: 10px;
 box-shadow: 10px 20px 10px 0px rgba(104, 104, 104, 0.733);
 cursor: pointer;
+transition-duration: 0.4s;
 }
 section.portfolio .text {
     /* border: 1px solid red; */
