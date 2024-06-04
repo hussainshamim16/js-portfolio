@@ -110,7 +110,7 @@ section.card .boxes .box{
     text-align: center;
 }
 section.card .boxes .box:hover{
-    box-shadow: 10px 20px 10px 0px rgba(104, 104, 104, 0.733);
+    box-shadow: 8px 20px 10px 0px rgba(104, 104, 104, 0.733);
 }
 section.card .boxes .box a{
     text-decoration: none;
