@@ -141,13 +141,18 @@ section.portfolio{
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
+    height: 60vh;
 
 }
 section.portfolio .image{
-    width: 50%;
+    width: 20%;
+    
 }
 section.portfolio .image img{
 width: 100%;
+border-radius: 10px;
+box-shadow: 10px 20px 10px 0px rgba(104, 104, 104, 0.733);
+cursor: pointer;
 }
 section.portfolio .text {
     /* border: 1px solid red; */
