@@ -135,3 +135,42 @@ section.card .boxes .box h1{
     border-radius: 2px;
     margin-bottom: 15px;
 }
+
+section.portfolio{
+    /* border: 1px solid red; */
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+
+}
+section.portfolio .image{
+    width: 50%;
+}
+section.portfolio .image img{
+width: 100%;
+}
+section.portfolio .text {
+    /* border: 1px solid red; */
+    width: 40%;
+    text-align: center;
+    justify-content: center;
+    
+    flex-direction: column;
+
+}
+
+section.portfolio .text h1{
+    font-size: 30px;
+}
+section.portfolio .text a{
+    color: #ffd717;
+    background-color: var(--blue);
+    padding: 5px 10px;
+    display: inline;
+    text-decoration: none;
+}
+section.portfolio .text p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
