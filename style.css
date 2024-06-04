@@ -180,3 +180,40 @@ section.portfolio .text p{
     margin-top: 20px;
     font-size: 14px;
 }
+section.mostlanguages{
+    /* border: 1px solid red; */
+    height: 50vh;
+    background-color: var(--blue);
+    color: var(--syellow);
+
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+section.mostlanguages img{
+    width: 30%;
+    margin-top: 20px;
+}
+section.mostlanguages h1{
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+section.images{
+    /* border: 1px solid red; */
+    height: 60vh;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 0px 20px;
+}
+section.images img{
+   width: 60%;
+}
+
+section.images .text h1{
+   font-size: 30px;
+   margin-bottom: 20px;
+}
+section.images .text p{
+   font-size: 15px;
+}
