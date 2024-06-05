@@ -1,11 +1,11 @@
-
+console.log("hussainshamim16")
 function filter(element){
     element.src = "./filter.jpg"
-    console.log("inHoa")
+    // console.log("inHoa")
 }
 function unfilter(atribute){
     atribute.src = "./Snapchat-475541476.jpg"
-    console.log("nhi Hoa")
+    // console.log("nhi Hoa")
 }
 function iner(sub){
 // console.log(sub)
