@@ -254,6 +254,11 @@ section.footer a i{
     font-size: 18px;
     border-radius: 39px;
     background-color: var(--syellow);
+    transition-duration: 0.4s;
+}
+section.footer a i:hover{
+    background-color: white;
+    color: var(--blue);
 }
 section.footer .sections{
     /* border: 1px solid red; */
@@ -267,6 +272,13 @@ section.footer .sections a{
     
     color: white;
 
+    transition-duration: 0.4;
+    padding-bottom: 5px;
+    
+    border-bottom: 2px solid var(--blue);
+}
+section.footer .sections a:hover{
+    border-bottom: 2px solid var(--syellow);
 }
 section.footer .text{
     /* border: 1px solid red; */
@@ -281,4 +293,6 @@ section.footer .text h1 span{
     color: white;
     font-size: 50px;
     text-transform: uppercase;
+    border-bottom: 2px solid var(--syellow) ;
 }
+
